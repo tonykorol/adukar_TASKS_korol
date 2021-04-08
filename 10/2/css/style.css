@@ -1,0 +1,40 @@
+html, body{
+	margin: 0;
+	padding: 0;
+}
+
+.heart{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -50px 0 -50px 0;
+
+}
+
+:focus { outline: none; }
+
+img{
+	width: 100px;
+	background-color: grey;
+}
+
+a:hover img{
+	background-color: blue;
+}
+
+a:active {
+    background-color: red;
+}
+
+a[tabindex]:focus img{
+    background-color: red;
+}
+
+a[tabindex]:focus img:hover {
+    background-color: orange;
+}
+
+.give{
+	position: absolute;
+	
+}
