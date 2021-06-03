@@ -1,0 +1,31 @@
+let whatType1 = typeof "" + 1 + 0;
+let whatType2 = typeof "" - 1 + 0;
+let whatType3 = typeof true + false;
+let whatType4 = typeof 6 / "3";
+let whatType5 = typeof "2" * "3";
+let whatType6 = typeof 4 + 5 + "px";
+let whatType7 = typeof "$" + 4 + 5;
+let whatType8 = typeof "4" - 2;
+let whatType9 = typeof "4px" - 2;
+let whatType10 = typeof 7 / 0;
+let whatType11 = typeof " -9n\ " + 5;
+let whatType12 = typeof " -9n\ " - 5;
+let whatType13 = typeof null + 1;
+let whatType14 = typeof undefined + 1;
+let whatType15 = typeof null == " \n0\n "
+
+console.log(whatType1);
+console.log(whatType2);
+console.log(whatType3);
+console.log(whatType4);
+console.log(whatType5);
+console.log(whatType6);
+console.log(whatType7);
+console.log(whatType8);
+console.log(whatType9);
+console.log(whatType10);
+console.log(whatType11);
+console.log(whatType12);
+console.log(whatType13);
+console.log(whatType14);
+console.log(whatType15);
